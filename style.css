@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-image: url(images/back.avif); */
+}
+.main{
+    width: 100%;
+    background-color: beige;
+    background-position: center;
+    height: 100px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    align-items: auto;
+    justify-content: space-between;
+}
+.nav .logo{
+    width: 15%;
+    height: 15%;
+    margin-top: -5%;
+    margin-left: 0%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: blueviolet;
+}
+ul li a:hover{
+    color: brown;
+}
+.info{
+    height: 100vh;
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 6%;
+    
+}
+.info h1{
+    font-size: 30px;
+    color: blueviolet;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.info li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    margin: 26px;
+    padding: 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info li a:hover{
+  background:blueviolet;
+}
+.icon{
+  margin-top: -375px;
+  margin-right: 18px;
+  padding: 60px;
+}
+ i{
+   font-size: 50px;
+  border: 05px solid black;
+
+  margin: 20px;
+  border-radius: 50%;
+}
+i hover:{
+   border: solid blueviolet;
+}
