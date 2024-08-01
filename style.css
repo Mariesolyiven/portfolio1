@@ -30,6 +30,9 @@ body{
     align-items: auto;
     justify-content: space-between;
 }
+.nav h2{
+    color: black;
+}
 .nav .logo{
     width: 15%;
     height: 15%;
